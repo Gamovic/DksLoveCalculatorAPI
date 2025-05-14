@@ -39,7 +39,7 @@ def calculate_love_percentage(name1: str, name2: str) -> int:
     random.seed(combined_names)
     
     # Generate a "love percentage" between 0-100
-    love_percentage = random.randint(50, 100)  # Keep it positive! 😊
+    love_percentage = random.randint(50, 100)  
     
     return love_percentage
 
